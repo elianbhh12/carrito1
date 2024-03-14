@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="bg-white border-b border-gray">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8  ">
+            <div class="relative flex h-16 items-center justify-between">
+                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                    <div class="flex flex-shrink-0 items-center">
+                       <img src="img/regalo.png" alt="" class="w-12">
+                    </div>
+                    <div class="p-6">
+                        <h1 class="font-bold text-2xl text-fuchsia-700"> Womman Day`s</h1>
+                    </div>
+                </div>
+                <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                    <button type="button"
+                        class="relative rounded-full  p-1 text-black hover:text-black focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 focus:ring-offset-gray-800">
+                        <span class="absolute -inset-1.5"></span>
+                        <span class="sr-only">Ver Carito</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-white" id="productos">
+        <div class="mx-auto max-w-2xl px-4 py-4  lg:max-w-7xl lg:px-8">
+           <div class="text-center  ">
+            <h1 class="font-bold text-5xl text-fuchsia-700" >Tesoros para ellas!</h1>
+            <br>
+            <h1 class="font-medium text-xl ">Celebra su grandeza, regálale el mundo: <span><br></span> ¡Encuentra el regalo perfecto en nuestro carrito de compras para el Día de la Mujer!</h1>
+           </div>
+           <br>
+           <hr>
+            <ul class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 sm:px-6 sm:py-12">
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/2697787/pexels-photo-2697787.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Lapiz Delineador Nee</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 48000</p>
+                    <button onclick="agregarAlCarrito('Lapiz Delineador Nee', '480000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/994172/pexels-photo-994172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Almohada De Gato Sirena</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 25000</p>
+                    <button onclick="agregarAlCarrito('Almohada De Gato Sirena', '25000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/4618517/pexels-photo-4618517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Flores Amarillas</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 30000</p>
+                    <button onclick="agregarAlCarrito('Flores Amarillas', '30000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/3018845/pexels-photo-3018845.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Kit de Maquillaje Novea</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 65000</p>
+                    <button onclick="agregarAlCarrito('Kit de Maquillaje Novea', '65000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/4428388/pexels-photo-4428388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Conjunto Azul </h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 90000</p>
+                    <button onclick="agregarAlCarrito('Conjunto Azul', '90000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/2341112/pexels-photo-2341112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Abanico Japones Rojo</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 12000</p>
+                    <button onclick="agregarAlCarrito('Abanico Japones Rojo', '12000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/3756907/pexels-photo-3756907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Audifonos Blancos Bluetooth</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span> 80000</p>
+                    <button onclick="agregarAlCarrito('Audifonos Blancos Bluetooth', '80000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+                <li href="#" class="group">
+                    <div
+                        class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                        <img src="https://images.pexels.com/photos/4602025/pexels-photo-4602025.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                            class="h-full w-full object-cover object-center group-hover:opacity-75" />
+                    </div>
+                    <h3 class="mt-4 text-lg text-gray-700">Conjunto Rosa Blanco</h3>
+                    <p class="mt-1 text-xl font-medium text-gray-900"><span class="font-bold">$</span>150000</p>
+                    <button onclick="agregarAlCarrito('Conjunto Rosa Blanco', '150000')" class="mt-2 w-full text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Agregar</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="carrito" class="mx-auto w-full max-w-4xl rounded-sm border border-gray-100 bg-white shadow-lg">        
+        <header class="border-b border-gray-100 px-5 py-4">
+            <div class="font-bold text-3xl text-center text-gray-800">Carrito De Compras</div>
+        </header>
+        <table id="tabla-carrito" class="w-full table-auto ">
+            <thead class="bg-gray-50 text-xs font-semibold uppercase text-gray-400">
+                <tr>
+                    <th class="p-2">Nombre Producto</th>
+                    <th class="p-2">Valor</th>
+                    <th class="p-2">Acciones</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100" id="cuerpo-tabla-carrito"></tbody>
+        </table>
+        <div id="total-carrito"></div> 
+    </div>
+    
+
+<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">J. Elian Muñoz™</a>. Todos los derechos son reservados.</span>
+    </div>
+</footer>
+
+<script src="js.js"></script>
+</body>
+
+</html>
